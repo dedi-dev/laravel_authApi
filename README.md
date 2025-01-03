@@ -11,6 +11,9 @@
 1. configure .env
 2. setup model user (add phone_number) and migration
 3. add api route: php artisan install:api
+4. create request RegisterRequest: php artisan make:request RegisterRequest
+5. create Api/AuthController: php artisan make:controller Api/AuthController --api
+6. setup route for AuthCOntroller in routes/api.php
 
 ## About Laravel
 
