@@ -14,6 +14,9 @@
 4. create request RegisterRequest: php artisan make:request RegisterRequest
 5. create Api/AuthController: php artisan make:controller Api/AuthController --api
 6. setup route for AuthCOntroller in routes/api.php
+7. create class ResponseHelper: php artisan make:class Helper/ResponseHelper
+8. create request LoginRequest: php artisan make:request LoginRequest
+9. create function login, get profile, and logout
 
 ## About Laravel
 
